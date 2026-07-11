@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Sabié Pâtisserie</title>
+
+
+<!-- Google Analytics Dummy -->
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXX"></script>
+
+
+<script>
+
+window.dataLayer = window.dataLayer || [];
+
+
+function gtag(){
+
+dataLayer.push(arguments);
+
+}
+
+
+gtag('js', new Date());
+
+
+gtag('config', 'G-XXXXXXX');
+
+
+</script>
+
+<link rel="stylesheet" href="style.css">
+
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+
+<header>
+
+<nav>
+
+
+<div class="logo">
+
+<img src="https://i.pinimg.com/1200x/f0/f2/57/f0f25764e707ddfc4687a9f383722c85.jpg" alt="Logo Sabié">
+
+<div>
+
+<h1>Sabié Pâtisserie 🎀</h1>
+
+<p>Made with love, just for you</p>
+
+</div>
+
+</div>
+
+
+<ul>
+
+<li>
+    <a href="#product" class="active">
+        Produk
+    </a>
+</li>
+
+
+<li>
+
+<a href="cart.html">
+
+🛒 Cart (<span id="cartCount">0</span>)
+
+</a>
+
+</li>
+
+
+<li>
+<a href="#checkout">
+Checkout
+</a>
+</li>
+
+
+</ul>
+
+
+</nav>
+
+
+</header>
+
+
+
+
+
+<section class="hero">
+
+    <div class="overlay">
+
+        <h1>Sweet Little Happiness</h1>
+
+        <p>
+    Handmade cakes & desserts premium yang dibuat dengan penuh cinta untuk melengkapi setiap momen spesial.
+</p>
+
+      <a href="#product" class="hero-btn">
+    Belanja Sekarang
+</a>
+
+
+</div>
+
+    </div>
+
+</section>
+
+
+
+<section class="filter">
+
+
+<input 
+id="search"
+placeholder="Cari produk..."
+>
+
+
+<select id="category">
+
+
+<option value="all">
+Semua kategori
+</option>
+
+
+<option value="cake">
+Cake
+</option>
+
+
+<option value="dessert">
+Dessert
+</option>
+
+
+</select>
+
+
+
+<select id="priceFilter">
+
+
+<option value="all">
+Semua harga
+</option>
+
+
+<option value="50000">
+≤ 50.000
+</option>
+
+
+</select>
+
+
+
+</section>
+
+
+
+
+<section id="product">
+
+    <div class="product-header">
+
+        <h2>Katalog Produk</h2>
+
+    </div>
+
+    <div class="products" id="productList">
+
+    </div>
+
+</section>
+
+<!-- Customer Reviews -->
+<section class="reviews">
+
+    <h2>What Our Customers Say 💖</h2>
+
+    <div class="review-container">
+
+        <div class="review-card">
+            <div class="stars">★★★★★</div>
+            <p>
+                Bento cakenya cantik banget! Rasanya juga enak dan
+                sesuai request. Pasti bakal order lagi.
+            </p>
+            <h4>— Aulia</h4>
+        </div>
+
+        <div class="review-card">
+            <div class="stars">★★★★★</div>
+            <p>
+                Macarons dan cookies-nya fresh, packaging-nya juga
+                aesthetic banget. Cocok buat hadiah.
+            </p>
+            <h4>— Nayy</h4>
+        </div>
+
+        <div class="review-card">
+            <div class="stars">★★★★★</div>
+            <p>
+                Pelayanannya ramah dan hasil custom cakenya melebihi
+                ekspektasi. Sangat puas!
+            </p>
+            <h4>— Emye</h4>
+        </div>
+        
+        <div class="review-card">
+            <div class="stars">★★★★★</div>
+            <p>
+                Dessert-nya cantik, rasanya pas, dan pengirimannya cepat. Pokoknya nggak pernah mengecewakan!
+            </p>
+            <h4>— Imot</h4>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- Contact Section -->
+<section class="contact">
+
+    <div class="contact-text">
+
+        <h2>Come Visit Us 🎀</h2>
+
+        <p class="location">
+            📍 Bandung, Indonesia
+        </p>
+
+        <p>
+            <strong>Open Everyday</strong><br>
+            09.00 - 20.00 WIB
+        </p>
+
+        <p>
+            We're always happy to welcome you.<br>
+            Come visit us or order online for your favorite handmade desserts.
+        </p>
+
+        <p>📧 sabiepatisserie@gmail.com</p>
+
+        <p>📞 +62 812-3456-7890</p>
+
+    </div>
+
+    <div class="contact-image">
+
+        <img src="https://i.pinimg.com/736x/ee/cc/15/eecc153e4bd0bb92e9cf6aa3e5523d04.jpg" alt="Sabié Pâtisserie">
+
+    </div>
+
+</section>
+
+<footer>
+
+    <p>© 2026 Sabié Pâtisserie • Made with 💖</p>
+
+</footer>
+
+<div id="toast">
+    💞 Produk berhasil ditambahkan ke keranjang
+</div>
+
+<div id="toast">
+    💞 Produk berhasil ditambahkan ke keranjang
+</div>
+
+<button id="backToTop" onclick="scrollToTop()">
+    ⬆
+</button>
+
+<script src="script.js"></script>
+
+</body>
+</html>
+
+
+
+

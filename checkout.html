@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+
+<meta charset="UTF-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Checkout | Sabié Pâtisserie</title>
+
+<link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+<header>
+
+<nav>
+
+<div class="logo">
+
+    <img src="https://i.pinimg.com/1200x/f0/f2/57/f0f25764e707ddfc4687a9f383722c85.jpg" alt="Logo Sabié">
+
+    <div>
+
+        <h1>Sabié Pâtisserie 🎀</h1>
+
+        <p>Made with love, just for you</p>
+
+    </div>
+
+</div>
+
+<ul>
+
+<li><a href="index.html">Produk</a></li>
+
+<li><a href="cart.html">🛒 Cart</a></li>
+
+<li><a href="checkout.html" class="active">Checkout</a></li>
+
+</ul>
+
+</nav>
+
+</header>
+
+<section class="checkout-section">
+
+<div class="payment-card">
+
+<h2>Checkout 🎀</h2>
+
+<div id="orderSummary"></div>
+
+<input
+type="text"
+id="customerName"
+placeholder="Nama Customer">
+
+<input
+type="text"
+id="address"
+placeholder="Alamat Pengiriman">
+
+<select id="payment">
+
+<option value="qris">QRIS</option>
+
+<option value="va">Virtual Account</option>
+
+<option value="bank">Transfer Bank</option>
+
+<option value="cod">Cash On Delivery (COD)</option>
+
+</select>
+
+<button class="btn" onclick="checkout()">
+
+Bayar Sekarang
+
+</button>
+
+<div id="paymentDetail"></div>
+
+</div>
+
+</section>
+
+<footer>
+
+© 2026 Sabié Pâtisserie 🎀
+
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+
+</html>

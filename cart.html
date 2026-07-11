@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+
+<meta charset="UTF-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Keranjang | Sabié Pâtisserie</title>
+
+<link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+<header>
+
+<nav>
+
+<div class="logo">
+
+    <img src="https://i.pinimg.com/1200x/f0/f2/57/f0f25764e707ddfc4687a9f383722c85.jpg" alt="Logo Sabié">
+
+    <div>
+
+        <h1>Sabié Pâtisserie 🎀</h1>
+
+        <p>Made with love, just for you</p>
+
+    </div>
+
+</div>
+
+<ul>
+
+<li><a href="index.html">Produk</a></li>
+
+<li><a href="cart.html" class="active">
+    🛒 Cart
+</a></li>
+
+<li><a href="checkout.html">Checkout</a></li>
+
+</ul>
+
+</nav>
+
+</header>
+
+<section class="cart-page">
+
+    <h2>Keranjang Belanja 🛒</h2>
+
+    <div class="cart-wrapper">
+
+        <div id="cartList">
+
+        </div>
+
+        <div class="cart-total">
+
+            <h2>💖 Ringkasan Belanja</h2>
+
+            <div class="summary-row">
+                <span>Subtotal</span>
+                <span>Rp <span id="subtotal">0</span></span>
+            </div>
+
+            <div class="summary-row">
+                <span>Ongkir</span>
+                <span>Gratis</span>
+            </div>
+
+            <div class="summary-row">
+                <span>Voucher</span>
+                <span>-</span>
+            </div>
+
+            <hr>
+
+            <div class="summary-total">
+                <span>Total</span>
+                <strong>Rp <span id="total">0</span></strong>
+            </div>
+
+            <button class="btn"
+            onclick="window.location.href='checkout.html'">
+
+            💕 Lanjut Checkout
+
+            </button>
+
+        </div>
+
+    </div>
+
+</section>
+
+<script src="script.js"></script>
+
+</body>
+
+</html>
